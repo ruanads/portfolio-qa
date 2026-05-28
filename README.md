@@ -1,7 +1,8 @@
 # QA Portfolio
+![QA Pipeline](https://github.com/ruanads/portfolio-qa/actions/workflows/qa-pipeline.yml/badge.svg)
 
 Testes automatizados demonstrando E2E, API, BDD e CI/CD.
-**Alvo real:** API pública do GitHub (`api.github.com`)
+**Alvos:** API pública do GitHub (`api.github.com`)
 
 ## Stack
 - Playwright + TypeScript (E2E)
