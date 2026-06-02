@@ -42,7 +42,7 @@ PORTFOLIO-QA
 ├── docs               # Arquivos de documentação de apoio do projeto
 └── e2e\tests              # Camada de testes de API utilizando Playwright Test puro
     └── github-api.spec.ts # Validações diretas de status, payloads e contratos (Zod)
-
+```
 
 ---
 
@@ -79,6 +79,7 @@ npm install
 
 # 2. Executar todos os testes automatizados
 npx playwright test
+```
 
 ---
 
@@ -89,3 +90,6 @@ O framework está configurado para gerar relatórios detalhados automaticamente 
 ```bash
 # Para visualizar o último relatório gerado localmente
 npx playwright show-report
+```
+
+![Evidência de Execução](https://github.com/user-attachments/assets/2e97b169-8032-4a46-b5b0-e533361d2c31)
