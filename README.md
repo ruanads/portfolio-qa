@@ -81,7 +81,7 @@ npm install
 npx playwright test
 
 ---
-```markdown
+
 ## 📊 Relatórios de Execução
 
 O framework está configurado para gerar relatórios detalhados automaticamente após o término de cada execução, consolidando os resultados de interface, API e contrato em um único lugar.
