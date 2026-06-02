@@ -1,7 +1,7 @@
 # QA Portfolio 🚀
 ![QA Pipeline](https://github.com/ruanads/portfolio-qa/actions/workflows/qa-pipeline.yml/badge.svg)
 
-Este projeto simula um pipeline real de QA moderno, combinando testes funcionais de interface (E2E), testes de API e validação de contrato automatizados, executados continuamente dentro de um ambiente de CI/CD.
+Este projeto simula um pipeline real, combinando testes funcionais de interface (E2E), testes de API e validação de contrato automatizados, executados continuamente dentro de um ambiente de CI/CD.
 
 **Alvos dos testes:** API pública do GitHub (`api.github.com`) e fluxos correlatos.
 
