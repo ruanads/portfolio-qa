@@ -27,6 +27,25 @@ Este projeto simula um pipeline real, combinando testes funcionais de interface 
 
 ---
 
+## 🏗️ Estrutura e Arquitetura do Projeto
+
+A organização das pastas separa as responsabilidades de automação, relatórios e especificações em BDD de forma modular:
+
+```text
+PORTFOLIO-QA
+├── .github/workflows  # Pipelines de CI/CD (qa-pipeline.yml)
+├── api                # Requisições HTTP e validações de endpoints
+├── bdd                # Estrutura de suporte ao comportamento (BDD)
+│   ├── features       # Arquivos descritivos (.feature) para cenários Cucumber
+│   ├── reports        # Relatórios em HTML gerados pós-execução do BDD
+│   └── steps          # Implementação técnica dos passos em TypeScript (.steps.ts)
+├── docs               # Arquivos de documentação de apoio do projeto
+└── e2e\tests              # Camada de testes de API utilizando Playwright Test puro
+    └── github-api.spec.ts # Validações diretas de status, payloads e contratos (Zod)
+
+
+---
+
 ## 🧪 Escopo e Cenários de Testes
 
 ### 🔌 Camada de API (GitHub API)
@@ -60,3 +79,13 @@ npm install
 
 # 2. Executar todos os testes automatizados
 npx playwright test
+
+---
+
+## 📊 Relatórios de Execução
+
+O framework está configurado para gerar relatórios detalhados automaticamente após o término de cada execução, consolidando os resultados de interface, API e contrato em um único lugar.
+
+```bash
+# Para visualizar o último relatório gerado localmente
+npx playwright show-report
