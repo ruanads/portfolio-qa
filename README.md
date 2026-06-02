@@ -9,10 +9,10 @@ Este projeto simula um pipeline real, combinando testes funcionais de interface 
 
 ## 🛠️ Stack Tecnológica
 
-* **Playwright + TypeScript:** Motor robusto para automação de ponta a ponta (E2E) e requisições HTTP.
+* **Playwright + TypeScript:** automação de ponta a ponta (E2E) e requisições HTTP.
 * **Zod:** Biblioteca para testes de contrato e validação rigorosa de Schemas.
-* **Gherkin / Cucumber:** Abordagem BDD (Behavior-Driven Development) para especificação viva e alinhamento com o negócio.
-* **GitHub Actions:** Orquestração de CI (Integração Contínua) para execução disparada a cada commit.
+* **Gherkin / Cucumber:** Abordagem BDD (Behavior-Driven Development) para especificação e alinhamento com o negócio.
+* **GitHub Actions:** Integração de CI (Integração Contínua) para execução disparada a cada commit.
 
 ---
 
