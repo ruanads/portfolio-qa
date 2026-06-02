@@ -90,5 +90,4 @@ O framework está configurado para gerar relatórios detalhados automaticamente 
 # Para visualizar o último relatório gerado localmente
 npx playwright show-report
 
-Evidência de Execução (Multi-browser)
-<img width="970" height="587" alt="Image" src="https://github.com/user-attachments/assets/778b9a5f-3b19-49f4-810b-880d74f21d2c" />
+![Evidência de Execução](https://github.com/user-attachments/assets/778b9a5f-3b19-49f4-810b-880d74f21d2c)
